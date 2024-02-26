@@ -20,14 +20,6 @@ img {
     background-position: center;
     background-size: cover;
 }
-#container_card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 1200px;
-    margin: auto;
-    padding-top: 50px;
-}
 .card {
     margin: 10px;
 }
@@ -35,12 +27,4 @@ img {
     width: 600px;
     margin: auto;
     padding: 50px;
-}
-h5 {
-    background-color: antiquewhite;
-    color: black;
-}
-#p_h5 {
-    background-color: antiquewhite;
-    color: black;
 }
