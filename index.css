@@ -1,6 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 #container_page_accueil {
     display: flex;
-    background-color: rgb(214, 209, 209);
 }
 img {
     width: 100%;
@@ -9,4 +13,34 @@ img {
 #img_etudiants {
     width: 50px;
     height: 50px;
+}
+#container_img_eiffel {
+    background-image: url(./assets/images/christina-terzidou-vNn-W_3LymU-unsplash.jpg);
+    height: 800px;
+    background-position: center;
+    background-size: cover;
+}
+#container_card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    margin: auto;
+    padding-top: 50px;
+}
+.card {
+    margin: 10px;
+}
+#container_carousel {
+    width: 600px;
+    margin: auto;
+    padding: 50px;
+}
+h5 {
+    background-color: antiquewhite;
+    color: black;
+}
+#p_h5 {
+    background-color: antiquewhite;
+    color: black;
 }
